@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Habilidades - Pedro Henrique</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: { "primary": "#1173d4", "background-light": "#f6f7f8", "background-dark": "#101922" },
+                    fontFamily: { "display": ["Inter"] },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body class="bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-200">
+    <div class="flex flex-col min-h-screen">
+        <header
+            class="bg-background-light dark:bg-background-dark/80 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-200 dark:border-gray-800">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex items-center justify-between h-16">
+                    <a href="index.html" class="flex items-center gap-3">
+                        <div class="h-8 w-8 text-primary">
+                            <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                <path clip-rule="evenodd" d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z"
+                                    fill="currentColor" fill-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                        <h2 class="text-lg font-bold text-gray-900 dark:text-white">Pedro Henrique</h2>
+                    </a>
+                    <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+                        <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary"
+                            href="proficional.html">Sobre</a>
+                        <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary"
+                            href="habilidades.html">Habilidades</a>
+                        <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary"
+                            href="estudos.html">Projetos</a>
+                        <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary"
+                            href="feedback.html">Depoimentos</a>
+                        <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary"
+                            href="contato.html">Contato</a>
+                    </nav>
+                    <a class="hidden md:inline-flex items-center justify-center px-4 py-2 text-sm font-bold text-white bg-primary rounded-lg hover:bg-primary/90"
+                        href="#">
+                        Currículo
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main class="flex-grow">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 lg:py-32">
+                <div class="max-w-4xl mx-auto">
+                    <div class="text-center mb-12">
+                        <h1 class="text-4xl sm:text-5xl font-bold tracking-tight text-slate-900 dark:text-white">
+                            Serviços e Habilidades</h1>
+                        <p class="mt-4 text-lg text-slate-600 dark:text-slate-400">Soluções completas para seus projetos
+                            digitais.</p>
+                    </div>
+                    <div>
+                        <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white mb-8">Serviços</h2>
+                        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                            <div
+                                class="bg-white dark:bg-background-dark/50 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                                <div class="text-primary mb-4 size-8">
+                                    <svg fill="currentColor" height="100%" viewBox="0 0 256 256" width="100%"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M69.12,94.15,28.5,128l40.62,33.85a8,8,0,1,1-10.24,12.29l-48-40a8,8,0,0,1,0-12.29l48-40a8,8,0,0,1,10.24,12.3Zm176,27.7-48-40a8,8,0,1,0-10.24,12.3L227.5,128l-40.62,33.85a8,8,0,1,0,10.24,12.29l48-40a8,8,0,0,0,0-12.29ZM162.73,32.48a8,8,0,0,0-10.25,4.79l-64,176a8,8,0,0,0,4.79,10.26A8.14,8.14,0,0,0,96,224a8,8,0,0,0,7.52-5.27l64-176A8,8,0,0,0,162.73,32.48Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Desenvolvimento Web
+                                </h3>
+                                <p class="text-slate-600 dark:text-slate-400 text-sm">Criação de sites responsivos e
+                                    aplicações web modernas, focando em performance e usabilidade.</p>
+                            </div>
+                            <div
+                                class="bg-white dark:bg-background-dark/50 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                                <div class="text-primary mb-4 size-8">
+                                    <svg fill="currentColor" height="100%" viewBox="0 0 256 256" width="100%"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M227.32,73.37,182.63,28.69a16,16,0,0,0-22.63,0L36.69,152A15.86,15.86,0,0,0,32,163.31V208a16,16,0,0,0,16,16H216a8,8,0,0,0,0-16H115.32l112-112A16,16,0,0,0,227.32,73.37ZM136,75.31,152.69,92,68,176.69,51.31,160ZM48,208V179.31L76.69,208Zm48-3.31L79.32,188,164,103.31,180.69,120Zm96-96L147.32,64l24-24L216,84.69Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Design de UI</h3>
+                                <p class="text-slate-600 dark:text-slate-400 text-sm">Design de interfaces intuitivas e
+                                    atraentes, com foco na experiência do usuário.</p>
+                            </div>
+                            <div
+                                class="bg-white dark:bg-background-dark/50 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+                                <div class="text-primary mb-4 size-8">
+                                    <svg fill="currentColor" height="100%" viewBox="0 0 256 256" width="100%"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M216,40H136V24a8,8,0,0,0-16,0V40H40A16,16,0,0,0,24,56V176a16,16,0,0,0,16,16H79.36L57.75,219a8,8,0,0,0,12.5,10l29.59-37h56.32l29.59,37a8,8,0,1,0,12.5-10l-21.61-27H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,136H40V56H216V176Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">Consultoria Técnica
+                                </h3>
+                                <p class="text-slate-600 dark:text-slate-400 text-sm">Orientação especializada em
+                                    tecnologias e soluções para projetos digitais.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-20">
+                        <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white mb-8">Habilidades
+                        </h2>
+                        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+                            <div
+                                class="flex flex-col items-center text-center p-4 bg-white dark:bg-background-dark/50 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-all duration-300">
+                                <div class="text-primary size-8 mb-3">
+                                    <svg fill="currentColor" height="100%" viewBox="0 0 256 256" width="100%"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M223.68,66.15,135.68,18a15.94,15.94,0,0,0-15.36,0l-88,48.18a16,16,0,0,0-8.32,14v95.64a16,16,0,0,0,8.32,14l88,48.17a15.88,15.88,0,0,0,15.36,0l88-48.17a16,16,0,0,0,8.32-14V80.18A16,16,0,0,0,223.68,66.15ZM168,152v50.09l-32,17.52V132.74l80-43.8v32l-43.84,24A8,8,0,0,0,168,152Zm-84.16-7L40,121v-32l80,43.8v86.87L88,202.09V152A8,8,0,0,0,83.84,145Zm-.7-88.41,41,22.45a8,8,0,0,0,7.68,0l41-22.45,34.48,18.87L128,118.88,48.66,75.44ZM128,32h0l28.2,15.44L128,62.89,99.8,47.45ZM40,139.22l32,17.52v36.59L40,175.82Zm144,54.11V156.74l32-17.52v36.6Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <h3 class="text-base font-bold text-slate-800 dark:text-slate-100">React</h3>
+                            </div>
+                            <div
+                                class="flex flex-col items-center text-center p-4 bg-white dark:bg-background-dark/50 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-all duration-300">
+                                <div class="text-primary size-8 mb-3">
+                                    <svg fill="currentColor" height="100%" viewBox="0 0 256 256" width="100%"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M223.68,66.15,135.68,18a15.94,15.94,0,0,0-15.36,0l-88,48.18a16,16,0,0,0-8.32,14v95.64a16,16,0,0,0,8.32,14l88,48.17a15.88,15.88,0,0,0,15.36,0l88-48.17a16,16,0,0,0,8.32-14V80.18A16,16,0,0,0,223.68,66.15ZM168,152v50.09l-32,17.52V132.74l80-43.8v32l-43.84,24A8,8,0,0,0,168,152Zm-84.16-7L40,121v-32l80,43.8v86.87L88,202.09V152A8,8,0,0,0,83.84,145Zm-.7-88.41,41,22.45a8,8,0,0,0,7.68,0l41-22.45,34.48,18.87L128,118.88,48.66,75.44ZM128,32h0l28.2,15.44L128,62.89,99.8,47.45ZM40,139.22l32,17.52v36.59L40,175.82Zm144,54.11V156.74l32-17.52v36.6Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <h3 class="text-base font-bold text-slate-800 dark:text-slate-100">Node.js</h3>
+                            </div>
+                            <div
+                                class="flex flex-col items-center text-center p-4 bg-white dark:bg-background-dark/50 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-all duration-300">
+                                <div class="text-primary size-8 mb-3">
+                                    <svg fill="currentColor" height="100%" viewBox="0 0 256 256" width="100%"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M184,96a40,40,0,0,0-24-72H88A40,40,0,0,0,64,96a40,40,0,0,0,1.37,65A44,44,0,1,0,136,196V160a40,40,0,1,0,48-64Zm0-32a24,24,0,0,1-24,24H136V40h24A24,24,0,0,1,184,64ZM64,64A24,24,0,0,1,88,40h32V88H88A24,24,0,0,1,64,64Zm24,88a24,24,0,0,1,0-48h32v48H88Zm32,44a28,28,0,1,1-28-28h28Zm40-44a24,24,0,1,1,24-24A24,24,0,0,1,160,152Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <h3 class="text-base font-bold text-slate-800 dark:text-slate-100">Figma</h3>
+                            </div>
+                            <div
+                                class="flex flex-col items-center text-center p-4 bg-white dark:bg-background-dark/50 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-all duration-300">
+                                <div class="text-primary size-8 mb-3">
+                                    <svg fill="currentColor" height="100%" viewBox="0 0 256 256" width="100%"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M208.31,75.68A59.78,59.78,0,0,0,202.93,28,8,8,0,0,0,196,24a59.75,59.75,0,0,0-48,24H124A59.75,59.75,0,0,0,76,24a8,8,0,0,0-6.93,4,59.78,59.78,0,0,0-5.38,47.68A58.14,58.14,0,0,0,56,104v8a56.06,56.06,0,0,0,48.44,55.47A39.8,39.8,0,0,0,96,192v8H72a24,24,0,0,1-24-24A40,40,0,0,0,8,136a8,8,0,0,0,0,16,24,24,0,0,1,24,24,40,40,0,0,0,40,40H96v16a8,8,0,0,0,16,0V192a24,24,0,0,1,48,0v40a8,8,0,0,0,16,0V192a39.8,39.8,0,0,0-8.44-24.53A56.06,56.06,0,0,0,216,112v-8A58.14,58.14,0,0,0,208.31,75.68ZM200,112a40,40,0,0,1-40,40H112a40,40,0,0,1-40-40v-8a41.74,41.74,0,0,1,6.9-22.48A8,8,0,0,0,80,73.83a43.81,43.81,0,0,1,.79-33.58,43.88,43.88,0,0,1,32.32,20.06A8,8,0,0,0,119.82,64h32.35a8,8,0,0,0,6.74-3.69,43.87,43.87,0,0,1,32.32-20.06A43.81,43.81,0,0,1,192,73.83a8.09,8.09,0,0,0,1,7.65A41.72,41.72,0,0,1,200,104Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <h3 class="text-base font-bold text-slate-800 dark:text-slate-100">Git</h3>
+                            </div>
+                            <div
+                                class="flex flex-col items-center text-center p-4 bg-white dark:bg-background-dark/50 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-all duration-300">
+                                <div class="text-primary size-8 mb-3">
+                                    <svg fill="currentColor" height="100%" viewBox="0 0 256 256" width="100%"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M128,24C74.17,24,32,48.6,32,80v96c0,31.4,42.17,56,96,56s96-24.6,96-56V80C224,48.6,181.83,24,128,24Zm80,104c0,9.62-7.88,19.43-21.61,26.92C170.93,163.35,150.19,168,128,168s-42.93-4.65-58.39-13.08C55.88,147.43,48,137.62,48,128V111.36c17.06,15,46.23,24.64,80,24.64s62.94-9.68,80-24.64ZM69.61,53.08C85.07,44.65,105.81,40,128,40s42.93,4.65,58.39,13.08C200.12,60.57,208,70.38,208,80s-7.88,19.43-21.61,26.92C170.93,115.35,150.19,120,128,120s-42.93-4.65-58.39-13.08C55.88,99.43,48,89.62,48,80S55.88,60.57,69.61,53.08ZM186.39,202.92C170.93,211.35,150.19,216,128,216s-42.93-4.65-58.39-13.08C55.88,195.43,48,185.62,48,176V159.36c17.06,15,46.23,24.64,80,24.64s62.94-9.68,80-24.64V176C208,185.62,200.12,195.43,186.39,202.92Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <h3 class="text-base font-bold text-slate-800 dark:text-slate-100">Bancos de Dados</h3>
+                            </div>
+                            <div
+                                class="flex flex-col items-center text-center p-4 bg-white dark:bg-background-dark/50 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-all duration-300">
+                                <div class="text-primary size-8 mb-3">
+                                    <svg fill="currentColor" height="100%" viewBox="0 0 256 256" width="100%"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M160,40A88.09,88.09,0,0,0,81.29,88.67,64,64,0,1,0,72,216h88a88,88,0,0,0,0-176Zm0,160H72a48,48,0,0,1,0-96c1.1,0,2.2,0,3.29.11A88,88,0,0,0,72,128a8,8,0,0,0,16,0,72,72,0,1,1,72,72Z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <h3 class="text-base font-bold text-slate-800 dark:text-slate-100">Cloud Computing</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

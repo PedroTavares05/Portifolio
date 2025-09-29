@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Contato - Pedro Henrique</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: { primary: "#1173d4", "background-light": "#f6f7f8", "background-dark": "#101922", "surface-light": "#ffffff", "surface-dark": "#182430", "muted-light": "#64748b", "muted-dark": "#94a3b8", "text-light": "#0f172a", "text-dark": "#f8fafc", "border-light": "#e2e8f0", "border-dark": "#334155" },
+                    fontFamily: { display: ["Inter", "sans-serif"] },
+                    borderRadius: { DEFAULT: "0.5rem", lg: "0.75rem", full: "9999px" },
+                },
+            },
+        };
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body class="font-display bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark">
+    <div class="flex flex-col min-h-screen">
+        <header
+            class="bg-background-light dark:bg-background-dark/80 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-200 dark:border-gray-800">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex items-center justify-between h-16">
+                    <a href="index.html" class="flex items-center gap-3">
+                        <div class="h-8 w-8 text-primary">
+                            <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                <path clip-rule="evenodd" d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z"
+                                    fill="currentColor" fill-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                        <h2 class="text-lg font-bold text-gray-900 dark:text-white">Pedro Henrique</h2>
+                    </a>
+                    <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+                        <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary"
+                            href="proficional.html">Sobre</a>
+                        <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary"
+                            href="habilidades.html">Habilidades</a>
+                        <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary"
+                            href="estudos.html">Projetos</a>
+                        <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary"
+                            href="feedback.html">Depoimentos</a>
+                        <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary"
+                            href="contato.html">Contato</a>
+                    </nav>
+                    <a class="hidden md:inline-flex items-center justify-center px-4 py-2 text-sm font-bold text-white bg-primary rounded-lg hover:bg-primary/90"
+                        href="#">
+                        Currículo
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main class="flex-grow">
+            <section class="py-16 md:py-24">
+                <div class="container mx-auto px-4">
+                    <div class="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+                        <div class="space-y-8">
+                            <div class="space-y-3">
+                                <h1 class="text-3xl md:text-4xl font-bold">Entre em contato</h1>
+                                <p class="text-muted-light dark:text-muted-dark">Se você tiver alguma dúvida ou quiser
+                                    discutir um projeto, sinta-se à vontade para entrar em contato comigo.</p>
+                            </div>
+                            <form class="space-y-6">
+                                <div class="space-y-2">
+                                    <label class="font-medium" for="name">Nome</label>
+                                    <input
+                                        class="w-full bg-background-light dark:bg-background-dark border border-border-light dark:border-border-dark rounded-lg p-3 focus:ring-2 focus:ring-primary focus:border-primary transition-colors"
+                                        id="name" name="name" placeholder="Seu nome" type="text" />
+                                </div>
+                                <div class="space-y-2">
+                                    <label class="font-medium" for="email">Email</label>
+                                    <input
+                                        class="w-full bg-background-light dark:bg-background-dark border border-border-light dark:border-border-dark rounded-lg p-3 focus:ring-2 focus:ring-primary focus:border-primary transition-colors"
+                                        id="email" name="email" placeholder="Seu email" type="email" />
+                                </div>
+                                <div class="space-y-2">
+                                    <label class="font-medium" for="message">Mensagem</label>
+                                    <textarea
+                                        class="w-full bg-background-light dark:bg-background-dark border border-border-light dark:border-border-dark rounded-lg p-3 focus:ring-2 focus:ring-primary focus:border-primary transition-colors"
+                                        id="message" name="message" placeholder="Sua mensagem" rows="4"></textarea>
+                                </div>
+                                <button
+                                    class="w-full sm:w-auto bg-primary text-white font-bold py-3 px-6 rounded-lg hover:bg-primary/90 transition-colors"
+                                    type="submit">Enviar Mensagem</button>
+                            </form>
+                        </div>
+                        <div class="space-y-8">
+                            <div class="space-y-3">
+                                <h2 class="text-2xl font-bold">Outras formas de contato</h2>
+                                <p class="text-muted-light dark:text-muted-dark">Você também pode me encontrar aqui:</p>
+                            </div>
+                            <div class="space-y-4">
+                                <a class="flex items-start gap-4 p-4 rounded-lg bg-surface-light dark:bg-surface-dark hover:bg-primary/5 dark:hover:bg-primary/10 transition-colors"
+                                    href="mailto:phtsantos05@email.com">
+                                    <span class="material-symbols-outlined text-primary mt-1">mail</span>
+                                    <div>
+                                        <h3 class="font-semibold">Email</h3>
+                                        <p class="text-sm text-muted-light dark:text-muted-dark">phtSantos05@gmail.com
+                                        </p>
+                                    </div>
+                                </a>
+                                <a class="flex items-start gap-4 p-4 rounded-lg bg-surface-light dark:bg-surface-dark hover:bg-primary/5 dark:hover:bg-primary/10 transition-colors"
+                                    href="https://www.linkedin.com/in/pedro-henrique-tavares-dos-santos-8090092b1/">
+                                    <span class="material-symbols-outlined text-primary mt-1">group</span>
+                                    <div>
+                                        <h3 class="font-semibold">LinkedIn</h3>
+                                        <p class="text-sm text-muted-light dark:text-muted-dark">
+                                            linkedin.com/in/pedro-henrique</p>
+                                    </div>
+                                </a>
+                                <a class="flex items-start gap-4 p-4 rounded-lg bg-surface-light dark:bg-surface-dark hover:bg-primary/5 dark:hover:bg-primary/10 transition-colors"
+                                    href="#">
+                                    <span class="material-symbols-outlined text-primary mt-1">call</span>
+                                    <div>
+                                        <h3 class="font-semibold">WhatsApp</h3>
+                                        <p class="text-sm text-muted-light dark:text-muted-dark">+55 (27) 988232622</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>

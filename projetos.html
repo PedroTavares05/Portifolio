@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Projetos - Pedro Henrique</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#1173d4",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: { display: ["Inter"] },
+                },
+            },
+        };
+    </script>
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-display">
+    <div class="relative flex min-h-screen w-full flex-col">
+        <header
+            class="bg-background-light dark:bg-background-dark/80 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-200 dark:border-gray-800">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex items-center justify-between h-16">
+                    <a href="index.html" class="flex items-center gap-3">
+                        <div class="h-8 w-8 text-primary">
+                            <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                <path clip-rule="evenodd" d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z"
+                                    fill="currentColor" fill-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                        <h2 class="text-lg font-bold text-gray-900 dark:text-white">Pedro Henrique</h2>
+                    </a>
+                    <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+                        <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary"
+                            href="proficional.html">Sobre</a>
+                        <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary"
+                            href="habilidades.html">Habilidades</a>
+                        <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary"
+                            href="estudos.html">Projetos</a>
+                        <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary"
+                            href="feedback.html">Depoimentos</a>
+                        <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary"
+                            href="contato.html">Contato</a>
+                    </nav>
+                    <a class="hidden md:inline-flex items-center justify-center px-4 py-2 text-sm font-bold text-white bg-primary rounded-lg hover:bg-primary/90"
+                        href="#">
+                        Currículo
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main class="flex-1">
+            <div class="mx-auto max-w-4xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+
+                <section>
+                    <div class="space-y-4 text-center mb-12">
+                        <h1 class="text-4xl font-extrabold tracking-tight text-heading-light sm:text-5xl">Meus Projetos
+                        </h1>
+                        <p class="mx-auto max-w-2xl text-lg text-content-light">
+                            Aqui estão alguns dos projetos em que trabalhei.
+                        </p>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+
+                        <div
+                            class="flex flex-col bg-white dark:bg-background-dark/50 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+                            <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">
+                                Prj Agenda
+                            </h3>
+                            <p class="text-slate-600 dark:text-slate-400 text-sm mb-4 flex-grow">
+                                Um sistema de agenda desenvolvida em Php, Mysql,html e css para mostar contatos, descrição e data.
+                            </p>
+                            <div class="mb-4 flex flex-wrap gap-2">
+                                <span
+                                    class="text-xs font-semibold bg-primary/10 text-primary px-2 py-1 rounded-full">HTML</span>
+                                <span
+                                    class="text-xs font-semibold bg-primary/10 text-primary px-2 py-1 rounded-full">CSS</span>
+                                <span
+                                    class="text-xs font-semibold bg-primary/10 text-primary px-2 py-1 rounded-full">PHP</span>
+                                    <span
+                                    class="text-xs font-semibold bg-primary/10 text-primary px-2 py-1 rounded-full">Mysql</span>
+                            </div>
+                            <div class="mt-auto pt-4 border-t border-slate-200 dark:border-slate-700 flex items-center gap-4">
+                                <a href="https://github.com/PedroTavares05/prj_Agenda" target="_blank"
+                                    class="flex items-center gap-2 text-sm font-medium text-primary hover:underline">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path
+                                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.54 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                        </path>
+                                    </svg>
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+
+                        <div
+                            class="flex flex-col bg-white dark:bg-background-dark/50 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+                            <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">
+                                Clone Spotify
+                            </h3>
+                            <p class="text-slate-600 dark:text-slate-400 text-sm mb-4 flex-grow">
+                                Um clone do spotify desenvolvido em html e css.
+                            </p>
+                            <div class="mb-4 flex flex-wrap gap-2">
+                                <span
+                                    class="text-xs font-semibold bg-primary/10 text-primary px-2 py-1 rounded-full">HTML</span>
+                                <span
+                                    class="text-xs font-semibold bg-primary/10 text-primary px-2 py-1 rounded-full">CSS</span>
+                            </div>
+                            <div
+                                class="mt-auto pt-4 border-t border-slate-200 dark:border-slate-700 flex items-center gap-4">
+                                <a href="https://pedrotavares05.github.io/Spotify/" target="_blank"
+                                    class="flex items-center gap-2 text-sm font-medium text-primary hover:underline">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                    Ver Site
+                                </a>
+                                <a href="https://github.com/PedroTavares05/Spotify" target="_blank"
+                                    class="flex items-center gap-2 text-sm font-medium text-primary hover:underline">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path
+                                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.54 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                        </path>
+                                    </svg>
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+
+                                                <div
+                                                    class="flex flex-col bg-white dark:bg-background-dark/50 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+                                                    <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">
+                                                        App Clone Uber
+                                                    </h3>
+                                                    <p class="text-slate-600 dark:text-slate-400 text-sm mb-4 flex-grow">
+                                                        Um clone do App do uber desenvolvido em FLutter.
+                                                    </p>
+                                                    <div class="mb-4 flex flex-wrap gap-2">
+                                                        <span class="text-xs font-semibold bg-primary/10 text-primary px-2 py-1 rounded-full">Dart</span>
+                                                        <span class="text-xs font-semibold bg-primary/10 text-primary px-2 py-1 rounded-full">Flutter</span>
+                                                        <span class="text-xs font-semibold bg-primary/10 text-primary px-2 py-1 rounded-full">Ruby</span>
+                                                        <span class="text-xs font-semibold bg-primary/10 text-primary px-2 py-1 rounded-full">Java</span>
+                                                    </div>
+                                                    <div class="mt-auto pt-4 border-t border-slate-200 dark:border-slate-700 flex items-center gap-4">
+                                                        <a href="https://github.com/PedroTavares05/APP-UBER-" target="_blank"
+                                                            class="flex items-center gap-2 text-sm font-medium text-primary hover:underline">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                                <path
+                                                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.54 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                                                </path>
+                                                            </svg>
+                                                            GitHub
+                                                        </a>
+                                                    </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

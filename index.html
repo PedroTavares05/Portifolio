@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Pedro Henrique Tavares dos Santos - Portfólio</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1173d4",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                        "text-light": "#1f2937",
+                        "text-dark": "#f3f4f6"
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.5rem", "lg": "0.75rem", "xl": "1rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-display text-text-light dark:text-text-dark">
+    <header
+        class="bg-background-light dark:bg-background-dark/80 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-200 dark:border-gray-800">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <a href="index.html" class="flex items-center gap-3">
+                    <div class="h-8 w-8 text-primary">
+                        <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                            <path clip-rule="evenodd" d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z"
+                                fill="currentColor" fill-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h2 class="text-lg font-bold text-gray-900 dark:text-white">Pedro Henrique</h2>
+                </a>
+                <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+                    <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary"
+                        href="proficional.html">Sobre</a>
+                    <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary"
+                        href="habilidades.html">Habilidades</a>
+                    <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary"
+                        href="estudos.html">Projetos</a>
+                    <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary"
+                        href="feedback.html">Depoimentos</a>
+                    <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary"
+                        href="contato.html">Contato</a>
+                </nav>
+                <a class="hidden md:inline-flex items-center justify-center px-4 py-2 text-sm font-bold text-white bg-primary rounded-lg hover:bg-primary/90"
+                    href="#">
+                    Currículo
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex items-center justify-center min-h-[calc(100vh-64px)] p-4">
+        <div class="w-full max-w-6xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="flex flex-col justify-center text-center md:text-left">
+                    <h1 class="text-4xl lg:text-6xl font-black text-text-light dark:text-text-dark mb-4 leading-tight">
+                        Pedro Henrique Tavares dos Santos
+                    </h1>
+                    <p class="text-lg lg:text-xl text-text-light/80 dark:text-text-dark/80 mb-8">
+                        Desenvolvedor de software com foco em criar soluções inovadoras e eficientes. Apaixonado por
+                        tecnologia e sempre em busca de novos desafios.
+                    </p>
+                    <div class="flex justify-center md:justify-start">
+                        <a class="inline-block bg-primary text-white font-bold py-3 px-8 rounded-lg text-base hover:bg-primary/90 transition-colors duration-300"
+                            href="estudos.html">
+                            Ver projetos
+                        </a>
+                    </div>
+                </div>
+                <div class="flex items-center justify-center">
+                    <div class="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-2xl">
+                        <img alt="Foto de Pedro Henrique Tavares dos Santos" class="w-full h-full object-cover"
+                            src="imgs/IMG-20241006-WA0134.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
