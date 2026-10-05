@@ -1,0 +1,25 @@
+body {
+  background-color: #1a2027;
+}
+.HomeSection {
+  background-color: #1e293b;
+}
+p {
+  color: #dee8f1;
+}
+
+.logo {
+  color: #6f7a85;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: #dee8f1;
+}
+header {
+  display: flex;
+}
