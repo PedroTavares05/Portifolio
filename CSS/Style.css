@@ -3,23 +3,52 @@ body {
 }
 .HomeSection {
   background-color: #1e293b;
+  border-radius: 5%;
+}
+h2 {
+  color: #dee8f1;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 5px;
 }
 p {
   color: #dee8f1;
+  text-wrap: balance;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .logo {
   color: #6f7a85;
+  padding-top: 10px;
 }
 
 ul {
   list-style-type: none;
   display: flex;
+  gap: 80px;
 }
 a {
   text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #dee8f1;
 }
 header {
   display: flex;
+}
+figure {
+  display: flex;
+}
+.Botao-Curriculo {
+  border: 1px solid #dee8f1;
+  display: block;
+  padding: 10px 10px;
+  width: fit-content;
+  margin: 20px auto;
+}
+
+.ContainerHome {
+  display: flex;
+  gap: 30px;
+  align-items: center;
 }
